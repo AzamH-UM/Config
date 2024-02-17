@@ -38,8 +38,6 @@ else
     export EDITOR="nano"  # Fallback to Nano if neither Code nor Vim is available
     
 fi
-alias ebrc='$EDITOR ~/.bashrc'
-alias rbrc='source ~/.bashrc'  # Reload .bashrc without restarting the session
 
 # Aliases for safety and convenience
 alias cp='cp -iv'  # Interactive copy, prompt before overwrite
