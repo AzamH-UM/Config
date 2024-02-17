@@ -44,7 +44,7 @@ alias cp='cp -iv'  # Interactive copy, prompt before overwrite
 alias mv='mv -iv'  # Interactive move, prompt before overwrite
 alias rm='rm -iv'  # Interactive removal, prompt before deletion
 alias mkdir='mkdir -pv'  # Create directories and show created directories
-alias ll='ls -lAhF --color=auto'  # Long list format, including hidden files, with file type indicators
+alias ll='ls -lAthF --color=auto'  # Long list format, including hidden files, with file type indicators
 alias la='ls -A'  # List all files except . and ..
 alias l='ls -CF'  # List files in columns, classify files by appending */=@| to entries
 alias ..='cd ..'  # Go up one directory
